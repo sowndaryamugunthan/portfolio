@@ -9,6 +9,7 @@
 body {
     color: #ededed;
     background: #081b29;
+    padding-top: 60px;
 }
 
 .header {
@@ -46,6 +47,7 @@ body {
     opacity: 0;
     animation: slideTop 0.5s ease forwards;
     animation-delay: calc(0.2s * var(--i));
+
 }
 
 .navbar a:hover {
